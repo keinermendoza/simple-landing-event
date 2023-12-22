@@ -5,3 +5,29 @@
 .d-none {
     display:none;
 }
+
+@font-face {
+    font-family: codystar;
+    src: url(../fonts/Codystar-Regular.ttf);
+}
+
+.codystar {
+    font-family: codystar;
+}
+
+/* this is for simpleCountDown classes */
+@layer utilities {
+
+    .simply-section {
+        @apply bg-sky-600 rounded h-20 grid place-content-center
+    }
+
+    .simply-amount {
+        @apply block text-2xl font-semibold
+
+    }
+
+    .simply-word {
+        @apply text-[0.7em]
+    }
+}
